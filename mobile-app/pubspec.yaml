@@ -1,0 +1,28 @@
+name: polylingua_plus
+description: "AI-Powered Mobile Translator with OCR and Speech for Mandarin–English–Filipino"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  http: ^1.1.0
+  google_mlkit_text_recognition: ^0.10.0
+  speech_to_text: ^6.2.0
+  flutter_tts: ^0.14.0
+  image_picker: ^1.0.0
+  permission_handler: ^11.4.0
+  shared_preferences: ^2.1.0
+  intl: ^0.18.0
+  flutter_svg: ^2.0.0
+  cached_network_image: ^3.3.0
+  dio: ^5.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.0
